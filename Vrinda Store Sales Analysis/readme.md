@@ -19,5 +19,14 @@ The following questions are analzed:
 6. Using historical data, what is the sales forecast for the year 2023?
 7. How can we optimize sales strategies and focus on high-potential regions?
 
+## Data Cleaning
+
+The following steps were done clean the dataset.
+
+- The Gender column had inconsistent values like "Men","Women","M","W". So everything was formatted to standard values "Men","Women".
+- A new column was added based on age called Age category which differentiates people into "Young","Adults","Senior".
+- The quantity column has inconsistent values like 1,2,one,two. they were formatted to standard values as 1 & 2.
+- The Currency and Amount columns were merged together and formatted as currencies.
+
 
 
